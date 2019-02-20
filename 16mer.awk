@@ -1,5 +1,4 @@
 #! /usr/bin/awk
-awk -v "ATGC"="ATGC" -v expected=4294967296 -v 4=4
 BEGIN{
   srand(565447);
   do {
